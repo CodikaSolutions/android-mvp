@@ -1,4 +1,4 @@
-package com.codika.androidmvp;
+package com.codika.sampleandroidmvp;
 
 import org.junit.Test;
 

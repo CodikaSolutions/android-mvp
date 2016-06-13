@@ -4,8 +4,8 @@ ext {
     bintrayRepo = 'maven'
     bintrayName = 'android-mvp'
 
-    publishedGroupId = 'com.codika.androidmvp'
-    libraryName = 'AndroidMvp'
+    publishedGroupId = 'com.codikasolutions.android'
+    libraryName = 'android-mvp'
     artifact = 'android-mvp'
 
     libraryDescription = 'A helper classes to implement Model-View-Presenter in android'
