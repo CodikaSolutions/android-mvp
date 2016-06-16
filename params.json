@@ -1,6 +1,6 @@
 {
   "name": "Android MVP",
   "tagline": "",
-  "body": "### Maven\r\n```maven\r\n<dependency>\r\n  <groupId>com.codikasolutions.android</groupId>\r\n  <artifactId>android-mvp</artifactId>\r\n  <version>0.0.1</version>\r\n  <type>pom</type>\r\n</dependency>\r\n```\r\n### Gradle\r\n\r\n```gradle\r\ncompile 'com.codikasolutions.android:android-mvp:0.0.1'\r\n```",
+  "body": "### Maven\r\n```maven\r\n<dependency>\r\n  <groupId>com.codikasolutions.android</groupId>\r\n  <artifactId>android-mvp</artifactId>\r\n  <version>0.0.2</version>\r\n  <type>pom</type>\r\n</dependency>\r\n```\r\n### Gradle\r\n\r\n```gradle\r\ncompile 'com.codikasolutions.android:android-mvp:0.0.2'\r\n```",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
