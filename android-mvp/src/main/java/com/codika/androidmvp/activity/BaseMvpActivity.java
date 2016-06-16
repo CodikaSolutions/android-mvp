@@ -10,7 +10,8 @@ import com.codika.androidmvp.presenter.BasePresenter;
 import com.codika.androidmvp.view.BaseView;
 
 /**
- * Created by ignacio on 09/06/16.
+ *  * A base MvpActivity implementation
+
  */
 public abstract class BaseMvpActivity<V extends BaseView, P extends BasePresenter<V>> extends AppCompatActivity
         implements LoaderManager.LoaderCallbacks<P>  {

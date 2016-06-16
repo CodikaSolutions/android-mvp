@@ -13,7 +13,7 @@ ext {
     siteUrl = 'http://codikasolutions.github.io/android-mvp/'
     gitUrl = 'https://github.com/CodikaSolutions/android-mvp'
 
-    libraryVersion = '0.0.1'
+    libraryVersion = '0.0.2'
 
     developerId = 'Nacho91'
     developerName = 'Ignacio Oviedo'

@@ -2,7 +2,7 @@ package com.codika.androidmvp.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
+import android.support.v4.app.DialogFragment;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.Loader;
 
@@ -10,9 +10,9 @@ import com.codika.androidmvp.presenter.BasePresenter;
 import com.codika.androidmvp.view.BaseView;
 
 /**
- * A base MvpFragment implementation
+ * A base MvpDialogFragment implementation
  */
-public abstract class BaseMvpFragment<V extends BaseView, P extends BasePresenter<V>> extends Fragment implements LoaderManager.LoaderCallbacks<P>{
+public abstract class BaseMvpDialogFragment<V extends BaseView, P extends BasePresenter<V>> extends DialogFragment implements LoaderManager.LoaderCallbacks<P>{
 
     static final int PRESENTER_LOADER_ID = 1;
 

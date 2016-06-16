@@ -1,7 +1,7 @@
 package com.codika.androidmvp.view;
 
 /**
- * Created by ignacio on 09/06/16.
+ * The base interface for each view
  */
 public interface BaseView {
 }

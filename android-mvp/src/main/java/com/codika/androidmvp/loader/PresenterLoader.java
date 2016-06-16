@@ -6,7 +6,9 @@ import android.support.v4.content.Loader;
 import com.codika.androidmvp.presenter.BasePresenter;
 
 /**
- * Created by ignacio on 09/06/16.
+ * A base implementation of {@link android.content.Loader}
+ *
+ * @param <T> type of the {@link BasePresenter}
  */
 public abstract class PresenterLoader<T extends BasePresenter> extends Loader<T> {
 
@@ -32,6 +34,10 @@ public abstract class PresenterLoader<T extends BasePresenter> extends Loader<T>
     protected void onForceLoad() {
 
         presenter = getPresenter();
+
+        if(presenter == null){
+            throw new NullPointerException("Presenter is null! Do you return null in getPresenter()?");
+        }
 
         deliverResult(presenter);
     }
