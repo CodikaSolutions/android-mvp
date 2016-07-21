@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidMvp.iml" filepath="$PROJECT_DIR$/AndroidMvp.iml" />
       <module fileurl="file://$PROJECT_DIR$/android-mvp/android-mvp.iml" filepath="$PROJECT_DIR$/android-mvp/android-mvp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-mvp-rx/android-mvp-rx.iml" filepath="$PROJECT_DIR$/android-mvp-rx/android-mvp-rx.iml" />
       <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
     </modules>
   </component>

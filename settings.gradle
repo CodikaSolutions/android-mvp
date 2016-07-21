@@ -1,1 +1,1 @@
-include ':sample', ':android-mvp'
+include ':sample', ':android-mvp', ':android-mvp-rx'
